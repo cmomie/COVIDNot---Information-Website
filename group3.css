@@ -1,0 +1,403 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  html, body{
+      height: 50%;
+      padding: 0px;
+      margin: 0px;
+      background:white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+  
+  
+  
+  /*NAV BAR*/
+  .logo{
+      color: #9078ac;
+      padding-right: 100px;
+      
+      
+   }
+   h4 span{
+       color: #6a2685 
+    }
+  
+  nav{
+      display: flex;
+      justify-content: space-around; 
+      align-items: center;
+      min-height: 8vh;
+      font-family: 'Poppins', sans-serif;
+    }
+  
+    .nav-links{
+      display: flex;
+      justify-content: space-around;
+      width: 30%;
+      padding-top: 15px;
+      margin-left: 100px;
+    }
+  
+    .nav-links li{
+      list-style: none; /* removes bullet points*/
+    }
+  
+    .nav-links a{
+      color: #9078ac;
+      text-decoration: none;
+      letter-spacing: 2px;
+      font-weight: bold;
+      font: size 14px; 
+    }
+  
+    .nav-links li a:hover {
+      color: #6a2685;
+      
+    }
+  
+    .nav-links .active {
+      color: #6a2685 ;
+    }
+  
+  
+  
+  
+  /*SIGN UP FORM*/
+  
+  /* Full-width of input fields */
+  input[type=text], input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+    
+    /* Background color for when the inputs gets clicked on */
+    input[type=text]:focus, input[type=password]:focus {
+      background-color: rgb(218, 174, 230);
+      outline: none;
+    }
+    
+    /* Styling for all buttons */
+    button {
+      background-color: #6a2685;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: solid white;
+      cursor: pointer;
+      width: 50%;
+      opacity: 0.9;
+      float: right;
+      border-radius: 10px;
+    }
+    
+    button:hover {
+      opacity:2;
+    }
+  
+  
+    .signup-btn{
+      width: 8%;
+      margin-top: 30px;
+      height: 55px;
+    }
+    
+  
+  
+    /* Extra styles for the cancel button */
+    .cancelbtn {
+      padding: 14px 20px;
+      background-color: #6a2685;
+    }
+    
+    /* Float cancel and signup buttons and add an equal width */
+    .cancelbtn, .signupbtn {
+      float: left;
+      width: 50%;
+    }
+    
+    /* Padding for container elements on sign up page*/
+     .login-container {
+      padding: 16px;
+      
+    }
+    
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stays in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enables scroll if needed */
+      background-color: white;
+      padding-top: 50px;
+      
+    }
+    
+    /* Modal Content/Box */
+    .modal-content {
+      background-color: #fefefe;
+      margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+      border: 5px solid #6a2685;
+      width: 80%; /* Could be more or less, depending on screen size */
+    }
+    
+    /* Style the horizontal ruler */
+    hr {
+      border: 2px solid #6a2685;
+      margin-bottom: 25px;
+    }
+     
+    /* The Close Button (x) */
+    .close {
+      position: absolute;
+      right: 35px;
+      top: 15px;
+      font-size: 40px;
+      font-weight: bold;
+      color: #f1f1f1;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #50288f;
+      cursor: pointer;
+    }
+    
+    /* Clear floats */
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    /* Styles for cancel button and signup button on extra small screens */
+    @media screen and (max-width: 300px) {
+      .cancelbtn, .signupbtn {
+         width: 100%;
+      }
+    }
+  
+  
+  /*About info*/
+  
+    .virus{
+      border-radius: 50%;
+      float: right;
+      justify-content: center;
+      margin-top: 100px;
+  }
+      
+    .corona-pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: width 2s, height 2s, transform 9s;
+  }
+  .flexbox-ab {
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+  }
+  
+  p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+      /* Footer */
+  
+      .page-wrapper{
+          min-height:50%;
+        }
+        
+      .footer { /*Bringing you the latest...text*/
+        background: white;
+        color: #6a2685;;
+        height: 400px;   
+        position: relative;
+    }
+  
+    .footer .footer-content{ /*most outer border*/
+       border: 2px solid #6a2685;
+       height: 350px;
+       display: flex;
+    }
+    
+    .footer .footer-content .footer-section{ /*inner border with vertical lines*/
+        flex: 1;
+        padding: 25px;
+        border: 2px solid #6a2685;
+    }
+  
+    .footer .footer-content h1,
+    .footer .footer-content h2{ /*Not, Quick Links Contact us headings*/
+        color: #9078ac
+    }
+  
+    .footer .footer-content .about h1 span{ /*COVID heading*/
+        color:#6a2685; 
+    }
+  
+    .footer .footer-content .about .contact span{
+        display: block;
+        font-size: 1.1em;
+        margin-bottom: 8px;
+  
+    }
+  
+    .footer .footer-content .about .socials a{
+        border: 2px solid #6a2685;
+        width: 45px;
+        height: 41px;
+        padding-top: 5px;
+        margin-right: 5px;
+        text-align: center;
+        display: inline-block;
+        font-size: 1.3em;
+        border-radius: 5px;
+        transition: all .3s; 
+        color: rgb(139, 87, 170);
+    }
+  
+    .footer .footer-content .about .socials a:hover{
+      border: 2px solid #6a2685;
+      color: #9078ac;
+      transition: all .3s; 
+  
+    }
+  
+    .footer .footer-content .links ul a{ /* Quick links (home, about us etc)*/
+        display: block;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+        transition: all 3s; 
+        text-decoration: none;
+        color:#6a2685 ;
+    }
+  
+    .footer .footer-content .links ul a:hover{ /* Quick links (home, about us etc)*/
+       color: #9078ac;
+       margin-left: 15px;
+       transition: all 1s; 
+    }
+  
+    .footer .footer-content .btn{ /* send button)*/
+        color: #6a2685;
+    }
+  
+    .footer .footer-bottom{
+        background:white;
+        color: #9078ac;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        padding-top: 20px;
+    }  
+  
+  
+    li{
+      list-style: none;
+    }
+  
+  
+    /*card flip*/
+    .container-center{
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .card-container{
+      width:200px;
+      height: 300px;
+      border-radius: 10px;
+    }
+  
+    .card{
+      position: relative;
+      width:100%;
+      height: 100%;
+      transition: transform 1s ease-in;
+      transition: transform 3s ease-out;
+      transform-style: preserve-3d;
+    }
+  
+    .card-container:hover .card{
+      transform: rotateY(180deg);
+    }
+  
+    .card figure{
+      width:100%;
+      height: 100%;
+      position: absolute;
+      margin: 0;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  
+    }
+    
+    .card .front{
+      background: white;
+      text-align: center;
+  
+    }
+  
+    .card .back{
+      background: #9078ac;
+      color: white;
+      transform: rotateY(180deg);
+      
+    }
+  
+    .prev-cards{
+      display: flex;
+     }
+  
+  
+       .flexbox-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .flexbox-container > div {
+        background-color: white;
+        height: 80px;
+        width: 200px;
+        margin: 50px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 15px;
+        border-radius: 10px;
+        border: solid #6a2685;
+        color: #9078ac;
+      }
+  
+  p{
+    color: black;
+  }

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="group3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <title>CovidNot</title>
+
+</head>
+<body>
+  <!--NAV BAR-->
+    
+  <nav>
+    <div class="logo">
+        <h4 class="logo-top"><span>COVID</span>Not.</h4>
+    </div>
+    <ul class="nav-links">
+        <li>
+            <a class= "active" href="indexgroup3.html"> Home</a>
+        </li>
+        <li>
+            <a href="coronagroup3.html">Corona</a>
+        </li>
+        <li>
+            <a href="preventiongroup3.html">Prevention</a>
+        </li>
+        <li>
+            <a href="aboutgroup3.html">Vaccine</a>
+        </li>
+    </ul>
+
+                <!-- Button to open the modal -->
+<button class="signup-btn" onclick="document.getElementById('id01').style.display='block'">SIGN UP</button>
+
+<!-- The Modal (contains the Sign Up form) -->
+<div id="id01" class="modal">
+<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal"></span>
+<form class="modal-content" action="/action_page.php">
+<div class="login-container">
+  <h1>SIGN UP</h1>
+  <p>Please fill in this form to create an account.</p>
+  <hr>
+  <label for="email"><b>Email</b></label>
+  <input type="text" placeholder="Enter Email" name="email" required>
+
+  <label for="psw"><b>Password</b></label>
+  <input type="password" placeholder="Enter Password" name="psw" required>
+
+  <label for="psw-repeat"><b>Repeat Password</b></label>
+  <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+  <label>
+    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+  </label>
+
+  <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+  <div class="clearfix">
+    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    <button type="submit" class="signup">Sign Up</button>
+    </div>
+        </div>
+</form>
+            </ul>
+</div>
+  </div>
+</nav>
+</nav>
+</nav>
+
+<!-- Container for cards starts -->
+<div class="container cards mt-5">
+    <div class="row">
+        <div class="col-8">
+            <h2></h2>
+        </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">What is COVID-19? </h5>
+                  <p class="card-text">The coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus. Coronaviruses are a large family of viruses with some causing less-severe disease, such as the common cold.</p>
+                  <br>
+                  <p><u>Watch this video below for a more in depth explanation:</u></p>
+                  <br>
+                  <iframe src="https://www.youtube.com/embed/i0ZabxXmH4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            
+          <div class="card">
+            
+            <div class="card-body">
+              <h5 class="card-title">How did the coronavirus start?</h5>
+              <p class="card-text">
+                The first case of COVID-19 was reported Dec. 1, 2019, and the cause was a then-new coronavirus later named SARS-CoV-2. SARS-CoV-2 may have originated in an animal and changed (mutated) so it could cause illness in humans. In the past, several infectious disease outbreaks have been traced to viruses originating in birds, pigs, bats and other animals that mutated to become dangerous to humans. Research continues, and more study may reveal how and why the coronavirus evolved to cause pandemic disease.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+           
+            <div class="card-body">
+              <h5 class="card-title">How does the coronavirus spread?</h5>
+              <p class="card-text">
+                </p>As of now, researchers know that the coronavirus is spread through droplets and virus particles released into the air when an infected person breathes, talks, laughs, sings, coughs or sneezes. Larger droplets may fall to the ground in a few seconds, but tiny infectious particles can linger in the air and accumulate in indoor places, especially where many people are gathered and there is poor ventilation. This is why mask-wearing, hand hygiene and physical distancing are essential to preventing COVID-19.
+            </div>
+          </div>
+        </div>
+      
+      </div>
+</div>
+<!-- Container for cards ends -->
+
+
+
+
+
+
+       <!-- Page Wrapper -->
+    <div class="page-wrapper">
+
+    </div>
+   
+  <!--Footer-->
+  <div class="footer">
+    <div class="footer-content">
+
+    <div class="footer-section about">
+    <h1 class="logo-text"><span>COVID</span>Not.</h1>
+    <p>Bringing you the latest information regarding COVID-19 to keep you updated and safe.</p>
+    
+    <div class="contact">
+    <span><i class="fas fa-phone"></i> &nbsp; 02938271638</span>
+    <span><i class="fas fa-envelope"></i> &nbsp; info@covid.not.com</span>
+    </div>
+
+    <div class="socials">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+</div>
+    </div>
+
+    <div class="footer-section links">
+        <h2>Quick Links</h2>
+        <br>
+        <ul>
+            <a href="indexgroup3.html"><li>Home</li></a>
+            <a href="aboutgroup3.html"><li>About Us</li></a>
+            <a href="coronagroup3.html"><li>Corona</li></a>
+            <a href="preventiongroup3.html"><li>Prevention</li></a>
+        </ul>
+    </div>
+
+    <div class="footer-section contact-form">
+        <h2>Contact Us</h2>
+        <br>
+        <label for="exampleFormControlInput1" class="form-label">Email address:</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <button type="submit" class="btn">
+                <i class="fas fa-envelope"></i>
+                Send
+            </button>
+        </form>
+    </div>
+</div>
+
+<div class="footer-bottom">
+    &copy; COVIDNot.com | Designed by Group 3
+</div>
+
+</div>
+</body>
+</html>
